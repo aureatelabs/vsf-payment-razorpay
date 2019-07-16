@@ -25,12 +25,6 @@ Add the following config to your config/local.json and configure the `razorpay.k
 }
 ```
 
-Need to install razorpay module dependency by following command on root of `vue-storefront-api` directory
-```
-sudo npm i razorpay
-sudo yarn install
-```
-
 ## Registration the Razorpay Payment module
 
 Add script import to ./src/modules/index.ts
