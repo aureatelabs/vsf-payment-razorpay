@@ -52,3 +52,7 @@ You can also customize the appearance of Razorpay elements using some of followi
   }
 }
 ```
+
+## Note
+
+Make sure [Razorpay](https://github.com/razorpay/razorpay-magento) Magento 2 extension should be configured properly at Magento instance.
