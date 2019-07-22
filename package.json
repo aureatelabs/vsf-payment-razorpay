@@ -1,0 +1,26 @@
+{
+    "name": "vsf-payment-razorpay",
+    "version": "1.0.0",
+    "description": "Razorpay payment module for Vue Storefront",
+    "main": "index.ts",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/aureatelabs/vsf-payment-razorpay.git"
+    },
+    "keywords": [
+      "Vue",
+      "Storefront",
+      "Razorpay",
+      "Razorpay payment method",
+      "Vue storefront Razorpay payment method"
+    ],
+    "author": "Piyush <piyush@aureatelabs.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/aureatelabs/vsf-payment-razorpay/issues"
+    },
+    "homepage": "https://github.com/aureatelabs/vsf-payment-razorpay#readme"
+  }
