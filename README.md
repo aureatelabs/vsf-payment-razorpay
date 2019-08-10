@@ -90,3 +90,7 @@ Configure the `razorpay.key` & `razorpay.keySecret` to point to your Razorpay cr
 # Magento 2 integration
 
 Make sure [Razorpay](https://github.com/razorpay/razorpay-magento) Magento 2 extension should be configured properly at Magento instance.
+
+# License
+
+This project is licensed under the [MIT License](https://github.com/aureatelabs/vsf-payment-razorpay/blob/master/LICENSE.txt)
