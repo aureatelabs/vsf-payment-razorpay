@@ -91,6 +91,11 @@ Configure the `razorpay.key` & `razorpay.keySecret` to point to your Razorpay cr
 
 Make sure [Razorpay](https://github.com/razorpay/razorpay-magento) Magento 2 extension should be configured properly at Magento instance.
 
+After Installation, Go to `vendor/razorpay/magento/Model/PaymentMethod.php` file and replace line no. 228 with below: 
+```
+'razorpay_order_id'   => $request['paymentMethod']['additional_data']['rzp_order_id'] ?? $this->order->getOrderId(),
+```
+
 # License
 
 This project is licensed under the [MIT License](https://github.com/aureatelabs/vsf-payment-razorpay/blob/master/LICENSE.txt)
