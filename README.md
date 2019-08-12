@@ -3,7 +3,7 @@
 
 ![Razorpay Payment](docs/razorpay_checkout_flow.gif)
 
-Please check demo here: [Demo Link](https://vue-storefront-demo.aureatelabs.com/)
+Experience the Razorpay Payment demo [here](https://vue-storefront-demo.aureatelabs.com/)
 
 ## Installation
 
