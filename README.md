@@ -1,6 +1,10 @@
 # Razorpay Payment extension for Vue Storefront
 [Razorpay](https://razorpay.com/) Payment extension for [vue-storefront](https://github.com/DivanteLtd/vue-storefront), by [Aureate Labs](https://aureatelabs.com)
 
+![Razorpay Payment](docs/razorpay_checkout_flow.gif)
+
+Please check demo here: [Demo Link](https://vue-storefront-demo.aureatelabs.com/)
+
 ## Installation
 
 By hand (preferer):
