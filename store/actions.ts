@@ -24,14 +24,14 @@ export const actions: ActionTree<RazorpayState, any> = {
         mode: 'cors',
         body: JSON.stringify(orderData)
       })
-      .then(response => response.json())
-      .then(data => {
-        if (data.code === 200) {
-          commit(types.CREATE_RAZORPAY_ORDER, data.result)
-        } else {
-          commit(types.REMOVE_RAZORPAY_ORDER)
-        }
-      })
+        .then(response => response.json())
+        .then(data => {
+          if (data.code === 200) {
+            commit(types.CREATE_RAZORPAY_ORDER, data.result)
+          } else {
+            commit(types.REMOVE_RAZORPAY_ORDER)
+          }
+        })
     } catch (e) {
       commit(types.REMOVE_RAZORPAY_ORDER)
       rootStore.dispatch('notification/spawnNotification', {

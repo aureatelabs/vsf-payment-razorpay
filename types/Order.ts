@@ -1,6 +1,6 @@
-export default interface razorpayOrder {
-  amount: string;
-  currency: string;
-  receipt: string;
-  payment_capture: string;
+export default interface RazorpayOrder {
+  amount: string,
+  currency: string,
+  receipt: string,
+  payment_capture: string
 }

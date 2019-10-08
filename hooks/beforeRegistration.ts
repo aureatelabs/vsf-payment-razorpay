@@ -1,8 +1,7 @@
 import PaymentRazorpay from '../components/PaymentRazorpay.vue'
 import i18n from '@vue-storefront/i18n'
 
-export function beforeRegistration({ Vue, config, store, isServer }) {
-
+export function beforeRegistration ({ Vue, config, store, isServer }) {
   const VSF_PAYMENT_CODE = config.razorpay.method_code || 'razorpay'
 
   let paymentMethodConfig = {
